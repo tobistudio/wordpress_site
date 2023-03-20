@@ -107,6 +107,10 @@ footer .f_top {
     border-bottom: 1px solid #413f3f;
 }
 
+i {
+    cursor: pointer;
+}
+
 footer .f_top > div {
     display: flex;
     flex-direction: column;
@@ -218,6 +222,7 @@ footer .f_top > div > * {
     display: none;
     position: absolute;
     top:20px;
+    cursor: pointer;
     right: 20px;
 }
 

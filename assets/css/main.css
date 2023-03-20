@@ -13,6 +13,10 @@ header {
     position: relative;
 }
 
+i {
+    cursor: pointer;
+}
+
 header .menu ul {
     display: flex;
     align-items: center;
@@ -765,7 +769,8 @@ footer .icons div {
 .close {
     display: none;
     position: absolute;
-    top:20px;
+    top: 20px;
+    cursor: pointer;
     right: 20px;
 }
 
@@ -813,9 +818,11 @@ footer .icons div {
     .contact_container {
         padding: 30px;
     }
+
     .container {
         padding: 30px;
     }
+
     .daha_container {
         padding: 30px;
     }
@@ -946,20 +953,25 @@ footer .icons div {
     .hi_image_area {
         height: 1000px;
     }
+
     footer {
         padding: 0;
     }
+
     .l_top {
         align-items: start !;
     }
+
     .daha_text .con div {
         padding-right: 45px !important;
     }
-    .arrow_left  {
+
+    .arrow_left {
         width: 50px;
         height: 50px;
         transform: translate(-94px, -65px);
     }
+
     .arrow_right {
         width: 50px;
         height: 50px;

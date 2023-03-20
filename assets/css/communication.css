@@ -370,6 +370,7 @@ textarea {
     position: absolute;
     top:20px;
     right: 20px;
+    cursor: pointer;
 }
 
 .close i {
@@ -468,6 +469,11 @@ textarea {
         display: none;
     }
 
+
+    i {
+        cursor: pointer;
+    }
+    
     .libar {
         justify-content: space-around;
     }

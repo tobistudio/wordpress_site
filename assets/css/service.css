@@ -780,10 +780,15 @@ footer .icons div {
     display: none;
 }
 
+i {
+    cursor: pointer;
+}
+
 .close {
     display: none;
     position: absolute;
     top:20px;
+    cursor: pointer;
     right: 20px;
 }
 

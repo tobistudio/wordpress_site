@@ -238,6 +238,10 @@ footer .right .icons {
 
 }
 
+i {
+    cursor: pointer;
+}
+
 .red {
     color: rgb(184, 9, 9);
     --webkit-stroke: #000;
@@ -582,6 +586,7 @@ footer .icons div {
     position: absolute;
     top:20px;
     right: 20px;
+    cursor: pointer;
 }
 
 .close i {

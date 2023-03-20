@@ -12,6 +12,10 @@ header {
     padding: 0 55px;
 }
 
+i {
+    cursor: pointer;
+}
+
 header .menu ul {
     display: flex;
     /* justify-content: space-around; */
@@ -506,6 +510,7 @@ footer .icons div {
     display: none;
     position: absolute;
     top:20px;
+    cursor: pointer;
     right: 20px;
 }
 
